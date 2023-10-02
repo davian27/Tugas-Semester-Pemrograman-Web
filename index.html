@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/Statistik.css"
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <title>Bookself Data Perpus</title>
+    <title>Bookself Library Web</title>
 </head>
 <body>
     <header>
@@ -23,7 +24,7 @@
             <span></span>
         </label>
         <ul style="list-style-type: none;">
-            <a href="#All"><li>Semua Buku</li></a>
+            <a href="/Tabel Semua Buku.html"><li>Semua Buku</li></a>
                     <a href="#tkj"><li>TKJ</li></a>
                     <a href="#rpl"><li>RPL</li></a>
                     <a href="#tsm"><li>TSM</li></a>
@@ -46,24 +47,78 @@
 <div class="perpus" id="perpus">
 <h1>Absensi Perpustakaan</h1>
 <div class="wrapper">
-    <form action="">
-        <div class="nisn-box">
-            <input type="text"
+    <form action="Tabel Semua Buku.html">
+        <div class="nama-box">
+            <input type="text" class="input"
             placeholder="Nama Lengkap" required>
-            <box-icon id="user" name="user-circle"></box-icon>
+            <box-icon class="user" id="user" name="user-circle"></box-icon>
         </div>
         <div class="nis-box">
-            <input type="text"
+            <input type="text" class="input"
             placeholder="NISN/NIS" required>
-            <box-icon id="card" name="id-card"></box-icon>
+            <box-icon class="card" id="card" name="id-card"></box-icon>
             
         </div>
-        <div>
-            <button type="submit" class="btn">Masuk</button>
+        <div class="button">
+            <button type="submit" class="btn">Masuk</button> 
         </div>
     </form>
 </div>
+<div class="siswa-container">
+    <h4>Presentase Kunjungan</h4>
+    <ul class="siswa-list">
+        <li class="active">
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">X TKJ</span>
+            <span class="day-temp">15%</span>
+        </li>
+        <li>
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">X RPL</span>
+            <span class="day-temp">10%</span>
+        </li>
+        <li>
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">X TSM</span>
+            <span class="day-temp">3%</span>
+        </li>
+        <li>
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">XI TKJ</span>
+            <span class="day-temp">15%</span>
+        </li>
+        <li>
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">XI RPL</span>
+            <span class="day-temp">10%</span>
+        </li>
+        <li>
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">XI TSM 1</span>
+            <span class="day-temp">3%</span>
+        </li>
+        <li>
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">XI TSM 2</span>
+            <span class="day-temp">15%</span>
+        </li>
+        <li>
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">XII RPL</span>
+            <span class="day-temp">10%</span>
+        </li>
+        <li>
+            <i class="day-icon" data-feather="users"></i>
+            <span class="day-name">XII TKJ</span>
+            <span class="day-temp">3%</span>
+        </li>
+        <div class="clear"></div>
+    </ul>
 </div>
+</div>
+
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script src="/js/Index.js"></script>
 </body>
 </html>

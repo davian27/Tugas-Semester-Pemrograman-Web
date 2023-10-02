@@ -1,0 +1,211 @@
+body {
+    background-image: url(/img/bg4.webp);
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+header h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+table{
+    margin-top: 1rem;
+}
+
+/*Rpl Section CSS*/
+.Rpl thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.Rpl th,
+.Rpl td {
+    padding: 12px 15px;
+    text-align: center;
+    
+}
+.Rpl tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: hsla(0, 0%, 100%, 0.786);
+}
+.Rpl tbody tr.active-row {
+    font-weight: bold;
+    color: #000000;
+}
+
+.Rpl tbody td:hover{
+    background-color: hsla(0, 0%, 100%, 0.614);
+    filter: blur(0.1px);
+}
+
+.button-rpl .btn-rpl{
+    background-color: #ffffffae;
+    border: none;
+    color: rgba(0, 0, 0, 0.751);
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.btn-rpl:hover{
+    background-color: hsla(0, 0%, 100%, 0.614);
+    filter: blur(1px);
+}
+
+
+/*TKJ Table Section Css*/
+.tkj{
+    margin-top: 0.95rem;
+    margin-left: 6rem;
+}
+.tkj thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.tkj th,
+.tkj td {
+    padding: 12px 15px;
+    text-align: center;
+    
+}
+.tkj tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: hsla(0, 0%, 100%, 0.786);
+}
+.tkj tbody tr.active-row {
+    font-weight: bold;
+    color: #000000;
+}
+
+.tkj tbody td:hover{
+    background-color: hsla(0, 0%, 100%, 0.614);
+    filter: blur(0.1px);
+}
+.btn-tkj{
+    margin-top: -3rem;
+    background-color: #ffffffae;
+    border: none;
+    color: rgba(0, 0, 0, 0.751);
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.btn-tkj:hover{
+    background-color: hsla(0, 0%, 100%, 0.614);
+    filter: blur(1px);
+}
+.button-tkj{
+    display: flex;
+    margin-left: 43rem;
+}
+
+/*TSM Table Section CSS*/
+.tsm{
+    margin-left: 5rem;
+}
+.tsm thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.tsm th,
+.tsm td {
+    padding: 12px 15px;
+    text-align: center;
+    
+}
+.tsm tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: hsla(0, 0%, 100%, 0.786);
+}
+.tsm tbody tr.active-row {
+    font-weight: bold;
+    color: #000000;
+}
+
+.tsm tbody td:hover{
+    background-color: hsla(0, 0%, 100%, 0.614);
+    filter: blur(0.1px);
+}
+.btn-tsm{
+    margin-top: -3rem;
+    background-color: #ffffffae;
+    border: none;
+    color: rgba(0, 0, 0, 0.751);
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.btn-tsm:hover{
+    background-color: hsla(0, 0%, 100%, 0.614);
+    filter: blur(1px);
+}
+.button-tsm{
+    display: flex;
+    margin-left: 85rem;
+}
+
+/* Non Produktif Css Section */
+.all{
+    margin-left: 5px;
+}
+.all thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.all th,
+.all td {
+    padding: 12px 15px;
+    text-align: center;
+    
+}
+.all tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: hsla(0, 0%, 100%, 0.786);
+}
+.all tbody tr.active-row {
+    font-weight: bold;
+    color: #000000;
+}
+
+.all tbody td:hover{
+    background-color: hsla(0, 0%, 100%, 0.614);
+    filter: blur(0.1px);
+}
+
+.button-all .btn-all{
+    margin-left: 5px;
+    margin-top: 1rem;
+    background-color: #ffffffae;
+    border: none;
+    color: rgba(0, 0, 0, 0.751);
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.btn-all:hover{
+    background-color: hsla(0, 0%, 100%, 0.614);
+    filter: blur(1px);
+}

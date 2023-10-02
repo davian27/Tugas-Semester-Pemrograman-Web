@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+    background-image: url('/img/bg2.webp');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.262);
+    background-blend-mode:darken;
+}
+
+header h2{
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+text-align: center;
+margin-top: 25rem;
+}
+
+header h4{
+    text-align: center;
+    font-size:4rem ;
+    color: rgb(255, 255, 255);
+}
+
+#about{
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+    background-image: url('/img/bg1.webp');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.579);
+    background-blend-mode: darken;
+}
+
+#perpus{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/img/b4.webp');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.44);
+    background-blend-mode: darken;
+}
+
+.about p{
+    width: 85%;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 10rem;
+    
+}
+
+.about h1{
+    color: rgb(236, 236, 236);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.perpus h1{
+    color: rgb(236, 236, 236);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.wrapper{
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+}
+
+.perpus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    
+}
+.nama-box{
+    display: flex;
+    flex-direction: column;
+}
+.nama-box .input{
+    height: 45px;
+    width: 30rem;
+    border: #000;
+    outline: none;
+    border-radius: 30px;
+    color: #000000;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.738);
+}
+
+.user{
+    position: relative;
+    top: -34px;
+    left: 17px;
+    color: #fff;
+}
+.nis-box{
+    display: flex;
+    flex-direction: column;
+}
+.nis-box .input{
+    height: 45px;
+    width: 30rem;
+    border: #000;
+    outline: none;
+    border-radius: 30px;
+    color: #000000;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.738);
+}
+
+.card{
+    position: relative;
+    top: -35px;
+    left: 17px;
+    color: #fff;
+}
+
+.btn{
+    
+    background-color: #ffffffae;
+  display: flex;
+  border: none;
+  color: rgba(0, 0, 0, 0.751);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  justify-content: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.btn:hover{
+    background-color: hsl(0, 0%, 42%);
+    
+
+
+}
