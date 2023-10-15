@@ -6,7 +6,7 @@
 
 body{
     background-image: url(/img/bg5.jpg);
-    height: 210vh;
+    height: 220vh;
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.467);
@@ -17,6 +17,25 @@ header h1{
     text-align: center;
     color: rgb(249, 228, 228);
     margin-top: 1rem;
+}
+
+.button{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  
+}
+.btn{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(225, 225, 225);
+  font-weight: bolder;
+}
+.btn:hover{
+  background-color: hsla(0, 0%, 84%, 0.84);
+  filter: blur(0.5px);
 }
 
 .flex-container {
@@ -85,6 +104,7 @@ header h1{
     background-image: url(/img/buku6.jpg);
     background-position: center;
     background-size: cover;
+    color: rgba(249, 228, 228, 0);
     
   } 
   .buku7 {
@@ -94,6 +114,7 @@ header h1{
     background-image: url(/img/buku7.jpg);
     background-position: center;
     background-size: cover;
+    color: rgba(249, 228, 228, 0);
     
   } 
   .buku8 {
@@ -103,7 +124,7 @@ header h1{
     background-image: url(/img/buku8.jpg);
     background-position: center;
     background-size: cover;
-    
+    color: rgba(249, 228, 228, 0);
   } 
   .buku9 {
     border: 2px solid rgb(255, 255, 255);
@@ -112,6 +133,7 @@ header h1{
     background-image: url(/img/buku12.jpg);
     background-position: center;
     background-size: cover;
+    color: rgba(249, 228, 228, 0);
     
   } 
   

@@ -1,124 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="css/Statistik.css"
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/Statistik.css"
+      <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
     <title>Bookself Library Web</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <nav class="navbar" id="navbar">
-    <div class="logo">
-        <h1>Perpustakaan</h1>
-    </div>
-    <div class="checkbox-navbar">
-        <input type="checkbox" id="hamburger-checkbox">
-        <label for="hamburger-checkbox" class="hamburger">
+      <nav class="navbar" id="navbar">
+        <div class="logo">
+          <h1>Perpustakaan</h1>
+        </div>
+        <div class="checkbox-navbar">
+          <input type="checkbox" id="hamburger-checkbox" />
+          <label for="hamburger-checkbox" class="hamburger">
             <span></span>
             <span></span>
             <span></span>
-        </label>
-        <ul style="list-style-type: none;">
+          </label>
+          <ul style="list-style-type: none">
             <a href="/Tabel Semua Buku.html"><li>Semua Buku</li></a>
-                    <a href="#tkj"><li>TKJ</li></a>
-                    <a href="#rpl"><li>RPL</li></a>
-                    <a href="#tsm"><li>TSM</li></a>
-                    <a href="#mulok"><li>Non Produktif</li></a>
-        </ul>
-    </div>
-    </nav>
-    <h2>Selamat Datang Di Perpustakaan</h2>
-    <h4>SMK Widyagama Malang</h4>
-</header>
+            <a href="/Tkj.html"><li>TKJ</li></a>
+            <a href="/Rpl.html"><li>RPL</li></a>
+            <a href="/Tsm.html"><li>TSM</li></a>
+            <a href="#mulok"><li>Non Produktif</li></a>
+          </ul>
+        </div>
+      </nav>
+      <h2>Selamat Datang Di Perpustakaan</h2>
+      <h4>SMK Widyagama Malang</h4>
+    </header>
 
-<div class="about" id="about">
-<h1>About Perpustakaan Widyagama</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab explicabo facere ipsum nostrum a iusto reprehenderit beatae perferendis?
-   Accusantium unde totam molestias est dicta aperiam distinctio sunt ducimus quasi dignissimos porro eius odio saepe, voluptatibus possimus dolore optio doloremque soluta cum! Nesciunt voluptas reprehenderit,
-   beatae aut facilis doloribus praesentium dolores unde aliquid, labore, provident accusamus cupiditate totam quidem molestias. Quia aliquam perspiciatis distinctio? Vero,
-   a quia recusandae, ut eum amet culpa exercitationem, voluptatem quaerat vel sunt. Nihil, corporis quod possimus, eaque, earum alias voluptate excepturi dolorum distinctio saepe animi nemo necessitatibus quasi
-   facere explicabo voluptas reprehenderit aperiam aliquam vel dolorem.</p>
-</div>
-<div class="perpus" id="perpus">
-<h1>Absensi Perpustakaan</h1>
-<div class="wrapper">
-    <form action="Tabel Semua Buku.html">
-        <div class="nama-box">
-            <input type="text" class="input"
-            placeholder="Nama Lengkap" required>
+    <div class="about" id="about">
+      <h1>About Perpustakaan Widyagama</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab explicabo
+        facere ipsum nostrum a iusto reprehenderit beatae perferendis?
+        Accusantium unde totam molestias est dicta aperiam distinctio sunt
+        ducimus quasi dignissimos porro eius odio saepe, voluptatibus possimus
+        dolore optio doloremque soluta cum! Nesciunt voluptas reprehenderit,
+        beatae aut facilis doloribus praesentium dolores unde aliquid, labore,
+        provident accusamus cupiditate totam quidem molestias. Quia aliquam
+        perspiciatis distinctio? Vero, a quia recusandae, ut eum amet culpa
+        exercitationem, voluptatem quaerat vel sunt. Nihil, corporis quod
+        possimus, eaque, earum alias voluptate excepturi dolorum distinctio
+        saepe animi nemo necessitatibus quasi facere explicabo voluptas
+        reprehenderit aperiam aliquam vel dolorem.
+      </p>
+    </div>
+    <div class="perpus" id="perpus">
+      <h1>Absensi Perpustakaan</h1>
+      <div class="wrapper">
+        <form action="Tabel Semua Buku.html">
+          <div class="nama-box">
+            <input
+              type="text"
+              class="input"
+              placeholder="Nama Lengkap"
+              required
+            />
             <box-icon class="user" id="user" name="user-circle"></box-icon>
-        </div>
-        <div class="nis-box">
-            <input type="text" class="input"
-            placeholder="NISN/NIS" required>
+          </div>
+          <div class="nis-box">
+            <input type="text" class="input" placeholder="NISN/NIS" required />
             <box-icon class="card" id="card" name="id-card"></box-icon>
-            
-        </div>
-        <div class="button">
-            <button type="submit" class="btn">Masuk</button> 
-        </div>
-    </form>
-</div>
-<div class="siswa-container">
-    <h4>Presentase Kunjungan</h4>
-    <ul class="siswa-list">
-        <li class="active">
+          </div>
+          <div class="kls-box">
+            <input type="text" class="input" placeholder="Kelas" required />
+            <box-icon
+              class="kelas"
+              id="kls"
+              name="buildings"
+              type="solid"
+            ></box-icon>
+          </div>
+          <div class="button">
+            <button type="submit" class="btn">Masuk</button>
+          </div>
+        </form>
+      </div>
+      <div class="siswa-container">
+        <h4>Presentase Kunjungan</h4>
+        <ul class="siswa-list">
+          <li class="active">
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">X TKJ</span>
             <span class="day-temp">15%</span>
-        </li>
-        <li>
+          </li>
+          <li>
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">X RPL</span>
             <span class="day-temp">10%</span>
-        </li>
-        <li>
+          </li>
+          <li>
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">X TSM</span>
             <span class="day-temp">3%</span>
-        </li>
-        <li>
+          </li>
+          <li>
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">XI TKJ</span>
             <span class="day-temp">15%</span>
-        </li>
-        <li>
+          </li>
+          <li>
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">XI RPL</span>
             <span class="day-temp">10%</span>
-        </li>
-        <li>
+          </li>
+          <li>
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">XI TSM 1</span>
             <span class="day-temp">3%</span>
-        </li>
-        <li>
+          </li>
+          <li>
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">XI TSM 2</span>
             <span class="day-temp">15%</span>
-        </li>
-        <li>
+          </li>
+          <li>
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">XII RPL</span>
             <span class="day-temp">10%</span>
-        </li>
-        <li>
+          </li>
+          <li>
             <i class="day-icon" data-feather="users"></i>
             <span class="day-name">XII TKJ</span>
             <span class="day-temp">3%</span>
-        </li>
-        <div class="clear"></div>
-    </ul>
-</div>
-</div>
+          </li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+    </div>
 
-<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-<script src="/js/Index.js"></script>
-</body>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="/js/Index.js"></script>
+  </body>
 </html>

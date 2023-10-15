@@ -33,7 +33,7 @@
 	border-radius: 10px;
 }
 
-.siswa-list>li .day-name {
+.siswa-list>li .kelas {
 	display: block;
 	margin: 10px 0 0 0;
 	text-align: center;

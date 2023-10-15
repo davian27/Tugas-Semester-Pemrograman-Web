@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(/img/bg400.jpg);
+    height: 220vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.467);
+    background-blend-mode: darken;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: rgb(249, 228, 228);
+    margin-top: 1rem;
+  }
+  
+  .button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(225, 225, 225);
+    font-weight: bolder;
+  }
+  .btn:hover {
+    background-color: hsla(0, 0%, 84%, 0.84);
+    filter: blur(0.5px);
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .buku1 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku27.jpg);
+    color: rgba(249, 228, 228, 0);
+    background-size: cover;
+  }
+  .buku2 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku28.jpg);
+    color: rgba(249, 228, 228, 0);
+    background-position: center;
+    background-size: cover;
+  }
+  .buku3 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku29.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0);
+  }
+  .buku4 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku30.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgba(249, 228, 228, 0);
+  }
+  .buku5 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku31.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgba(249, 228, 228, 0);
+  }
+  .buku6 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku32.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .buku7 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku33.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .buku8 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku34.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .buku9 {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13% 10rem;
+    border-radius: 20px;
+    background-image: url(/img/buku35.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  

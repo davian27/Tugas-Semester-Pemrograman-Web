@@ -136,6 +136,28 @@ header h4{
     left: 17px;
     color: #fff;
 }
+.kls-box{
+    display: flex;
+    flex-direction: column;
+}
+.kls-box .input{
+    height: 45px;
+    width: 30rem;
+    border: #000;
+    outline: none;
+    border-radius: 30px;
+    color: #000000;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.738);
+}
+
+.kelas{
+    position: relative;
+    top: -35px;
+    left: 14px;
+    color: #fff;
+}
+
 
 .btn{
     
