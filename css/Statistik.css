@@ -1,69 +1,65 @@
 .siswa-list {
-	list-style-type: none;
-	padding: 0;
-	margin: 10px 35px;
-	-webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
-	        box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 35px;
+  border-radius: 10px;
 }
 
-.siswa-list>li {
-	float: left;
-	padding: 15px;
-	cursor: pointer;
-	-webkit-transition: 200ms ease;
-	-o-transition: 200ms ease;
-	transition: 200ms ease;
-	border-radius: 10px;
+.siswa-list > li {
+	color: white;
+  float: left;
+  padding: 15px;
+  cursor: pointer;
+  -webkit-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  transition: 200ms ease;
+  border-radius: 10px;
 }
 
-.siswa-list>li:hover {
-	-webkit-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	        transform: scale(1.1);
-	background: #fff;
-	color: #222831;
-	-webkit-box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2);
-	        box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2)
+.siswa-list > li:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background: #fff;
+  color: #222831;
+  box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2);
 }
 
-.siswa-list>li.active {
-	background: #fff;
-	color: #222831;
-	border-radius: 10px;
+.siswa-list > li.active {
+  border-radius: 10px;
 }
 
-.siswa-list>li .kelas {
-	display: block;
-	margin: 10px 0 0 0;
-	text-align: center;
+.siswa-list > li .kelas {
+  display: block;
+  margin: 10px 0 0 0;
+  text-align: center;
 }
 
-.siswa-list>li .day-icon {
-	display: block;
-	height: 30px;
-	width: auto;
-	margin: 0 auto;
+.siswa-list > li .icon {
+  display: block;
+  height: 30px;
+  width: auto;
+  margin: 0 auto;
 }
 
-.siswa-list>li .day-temp {
-	display: block;
-	text-align: center;
-	margin: 10px 0 0 0;
-	font-weight: 700;
+.siswa-list > li .presentase {
+  display: block;
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-weight: 700;
 }
 
-.siswa-container{
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-	-webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
-	        box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
-	color: #ffffff;
+.siswa-container {
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  color: #ffffff;
 }
 
-.siswa-container h4{
-    margin-left: 3rem;
-    color: white;
-    font-size: 2.5rem;
+.siswa-container h4 {
+  margin-left: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
 }

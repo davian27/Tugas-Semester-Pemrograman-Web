@@ -1,55 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-header{
-    scroll-behavior: smooth;
+header {
     height: 100vh;
     width: 100%;
-    background-image: url('/img/bg2.webp');
+    background-image: url("/img/bg2.webp");
     background-size: cover;
     display: table;
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.262);
-    background-blend-mode:darken;
-}
-
-header h2{
-    color: rgb(255, 255, 255);
-    font-size: 8rem;
-text-align: center;
-margin-top: 25rem;
-}
-
-header h4{
-    text-align: center;
-    font-size:4rem ;
-    color: rgb(255, 255, 255);
-}
-
-#about{
-    scroll-behavior: smooth;
-    height: 100vh;
-    width: 100%;
-    background-image: url('/img/bg1.webp');
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.579);
     background-blend-mode: darken;
 }
 
-#perpus{
+header h2 {
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 25rem;
+}
+
+header h4 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+#about {
+    font-family: 'Fugas One',cursive;
+    scroll-behavior: smooth;
     height: 100vh;
     width: 100%;
-    background-image: url('/img/b4.webp');
+    background-image: url("/img/bg1.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.575);
+    filter: blur(0.1px);
+    -webkit-filter: blur(0.1px);
+    background-blend-mode: darken;
+}
+
+#perpus {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/img/b4.webp");
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -57,48 +58,46 @@ header h4{
     background-blend-mode: darken;
 }
 
-.about p{
-    width: 85%;
-    margin-top: 40px;
-    font-size: 1.5rem;
-    border: 1px solid black;
+.about p {
+    font-size: 18px;
     text-align: center;
-    margin-left: 10rem;
-    
+    margin-left: 5rem;
+    width: 90%;
+    margin-top: 2rem;
+}
+.about h1 {
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
-.about h1{
+.perpus h1 {
     color: rgb(236, 236, 236);
     text-align: center;
     font-size: 2.5rem;
     margin-top: 1.5rem;
 }
 
-.perpus h1{
-    color: rgb(236, 236, 236);
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 1.5rem;
-}
-
-.wrapper{
+.wrapper {
     margin-top: 10%;
     justify-content: center;
     display: flex;
 }
 
-.perpus{
+.perpus {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    
 }
-.nama-box{
+
+.nama-box {
     display: flex;
     flex-direction: column;
 }
-.nama-box .input{
+
+.nama-box .input {
     height: 45px;
     width: 30rem;
     border: #000;
@@ -109,17 +108,20 @@ header h4{
     background: rgba(255, 255, 255, 0.738);
 }
 
-.user{
+.user {
     position: relative;
     top: -34px;
     left: 17px;
     color: #fff;
 }
-.nis-box{
+
+.nis-box {
     display: flex;
     flex-direction: column;
 }
-.nis-box .input{
+
+.nis-box .input {
+    font-size: 10px;
     height: 45px;
     width: 30rem;
     border: #000;
@@ -130,17 +132,24 @@ header h4{
     background: rgba(255, 255, 255, 0.738);
 }
 
-.card{
+input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.card {
     position: relative;
     top: -35px;
     left: 17px;
     color: #fff;
 }
-.kls-box{
+
+.kls-box {
     display: flex;
     flex-direction: column;
 }
-.kls-box .input{
+
+.kls-box .input {
+    font-size: 10px;
     height: 45px;
     width: 30rem;
     border: #000;
@@ -151,40 +160,197 @@ header h4{
     background: rgba(255, 255, 255, 0.738);
 }
 
-.kelas{
+.kelas {
     position: relative;
     top: -35px;
     left: 14px;
     color: #fff;
 }
 
-
-.btn{
-    
+.btn {
     background-color: #ffffffae;
-  display: flex;
-  border: none;
-  color: rgba(0, 0, 0, 0.751);
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 20px;
-  justify-content: center;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  
+    display: flex;
+    border: none;
+    color: rgba(0, 0, 0, 0.751);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.button{
+.button {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: hsl(0, 0%, 42%);
-    
+}
 
+/*=============================List Anggota===================================================*/
+.pengurus-perpus {
+    margin-top: -15rem;
+}
 
+.perpus {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.perpus li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    width: 95%;
+}
+
+/* ============================Flip Card Section==============================*/
+.flip-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flip-card-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: -25rem;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #f1f1f1;
+}
+
+.flip-card-inner-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-1:hover .flip-card-inner-1 {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front-1,
+.flip-card-back-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front-1 {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back-1 {
+    background-color: hsla(0, 0%, 58%, 0.419);
+    backdrop-filter: blur(10px);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/*========================Section 2============================== */
+.flip-card-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: -25rem;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #f1f1f1;
+}
+
+.flip-card-inner-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-2:hover .flip-card-inner-2 {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front-2,.flip-card-back-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front-2 {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back-2 {
+    background-color: hsla(0, 0%, 58%, 0.419);
+    backdrop-filter: blur(10px);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/*========================Section 3============================== */
+.flip-card-3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: -25rem;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #f1f1f1;
+}
+
+.flip-card-inner-3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-3:hover .flip-card-inner-3 {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front-3,.flip-card-back-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front-3 {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back-3 {
+    background-color: hsla(0, 0%, 58%, 0.419);
+    backdrop-filter: blur(10px);
+    color: white;
+    transform: rotateY(180deg);
 }
