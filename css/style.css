@@ -132,10 +132,6 @@ header h4 {
     background: rgba(255, 255, 255, 0.738);
 }
 
-input[type="time"]::-webkit-calendar-picker-indicator {
-    display: none;
-}
-
 .card {
     position: relative;
     top: -35px;
@@ -354,3 +350,35 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     color: white;
     transform: rotateY(180deg);
 }
+
+/*========================Footer Section========================*/
+
+ p-ft{
+    font-size: 13px;
+    font-family: 'Fugas One',cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11rem;
+ }
+
+ .button-ft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+ }
+ .btn-ft{
+    background-color: hsla(0, 0%, 58%, 0.629);
+    padding: 6px 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+ }
+
+ .btn-ft:hover{
+    color: black;
+    background-color: hsla(0, 0%, 89%, 0.866);
+    backdrop-filter: blur(1px);
+ }
+

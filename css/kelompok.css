@@ -31,9 +31,9 @@ header h1{
     width: 95%;
 }
 .anggota li{
+  margin-left: 1rem;
     font-size: 15px;
     font-weight: bolder;
-    font-style: italic;
     color: white;
     list-style: none;
 }
